@@ -106,12 +106,12 @@ async function LoadDataBase(naze, m) {
 			if (!('uang' in setBot)) setBot.uang = 0
 			if (!('status' in setBot)) setBot.status = 0
 			if (!('join' in setBot)) setBot.join = false
-			if (!('public' in setBot)) setBot.public = true
-			if (!('anticall' in setBot)) setBot.anticall = true
+			if (!('public' in setBot)) setBot.public = false
+			if (!('anticall' in setBot)) setBot.anticall = false
 			if (!('readsw' in setBot)) setBot.readsw = false
 			if (!('autobio' in setBot)) setBot.autobio = false
-			if (!('autoread' in setBot)) setBot.autoread = true
-			if (!('autotyping' in setBot)) setBot.autotyping = true
+			if (!('autoread' in setBot)) setBot.autoread = false
+			if (!('autotyping' in setBot)) setBot.autotyping = false
 			if (!('multiprefix' in setBot)) setBot.multiprefix = false
 			if (!('template' in setBot)) setBot.template = 'textMessage'
 		} else {
@@ -121,12 +121,12 @@ async function LoadDataBase(naze, m) {
 				uang: 0,
 				status: 0,
 				join: false,
-				public: true,
-				anticall: true,
+				public: false,
+				anticall: false,
 				readsw: false,
 				autobio: false,
-				autoread: true,
-				autotyping: true,
+				autoread: false,
+				autotyping: false,
 				multiprefix: false,
 				template: 'textMessage',
 			}
@@ -164,7 +164,7 @@ async function LoadDataBase(naze, m) {
 				if (!('setinfo' in group)) group.setinfo = true
 				if (!('antilink' in group)) group.antilink = false
 				if (!('antitoxic' in group)) group.antitoxic = false
-				if (!('welcome' in group)) group.welcome = true
+				if (!('welcome' in group)) group.welcome = false
 				if (!('antivirtex' in group)) group.antivirtex = false
 				if (!('antidelete' in group)) group.antidelete = false
 				if (!('waktusholat' in group)) group.waktusholat = false
@@ -175,7 +175,7 @@ async function LoadDataBase(naze, m) {
 					setinfo: true,
 					antilink: false,
 					antitoxic: false,
-					welcome: true,
+					welcome: false,
 					antivirtex: false,
 					antidelete: false,
 					waktusholat: false,
