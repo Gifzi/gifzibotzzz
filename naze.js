@@ -91,7 +91,7 @@ module.exports = naze = async (naze, m, chatUpdate, store) => {
 		const hari = moment.tz('Asia/Jakarta').locale('id').format('dddd');
 		const tanggal = moment.tz('Asia/Jakarta').locale('id').format('DD/MM/YYYY');
 		const jam = moment().tz('Asia/Jakarta').locale('id').format('HH:mm:ss');
-		const ucapanWaktu = jam < '05:00:00' ? 'Selamat Pagi 🌉' : jam < '11:00:00' ? 'Selamat Pagi 🌄' : jam < '15:00:00' ? 'Selamat Siang 🏙' : jam < '18:00:00' ? 'Selamat Sore 🌅' : jam < '19:00:00' ? 'Selamat Sore 🌃' : jam < '23:59:00' ? 'Selamat Malam 🌌' : 'Selamat Malam 🌌';
+		const ucapanWaktu = jam < '05:00:00' ? 'Pagi Pak Bos 😎' : jam < '11:00:00' ? 'Pagi bosquu 😎' : jam < '15:00:00' ? 'Siang Pak Bos 🤩' : jam < '18:00:00' ? 'Selamat Sore Bos 😍' : jam < '19:00:00' ? 'Sore boskuu 🤩' : jam < '23:59:00' ? 'Malam pak boss 😴' : 'Malam boss 🥱';
 		const almost = 0.72
 		const time = Date.now()
 		const setv = pickRandom(listv)
