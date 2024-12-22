@@ -9,10 +9,10 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6287883375507','0']
+global.owner = ['6285875002124','0']
 global.packname = 'Bot WhatsApp'
-global.author = 'Gifzi Store'
-global.botname = 'Gifzi Bot'
+global.author = 'ggihfzi'
+global.botname = 'ggihfzi'
 global.listprefix = ['+','!']
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json'
@@ -27,9 +27,9 @@ global.fake = {
 }
 
 global.my = {
-	yt: 'https://youtube.com/c/Nazedev',
-	gh: 'https://github.com/Nazedev',
-	gc: 'https://chat.whatsapp.com/Hx9vcBVhbc04KLVGPFtH2R',
+	yt: 'https://youtu.be/dQw4w9WgXcQ?si=C5a9QxzR2j43_U7v',
+	gh: 'https://www.instagram.com/ggihfzi',
+	gc: 'https://chat.whatsapp.com/Kylxf6kGLLPIVun5bQbol7',
 	ch: '120363250409960161@newsletter',
 }
 
@@ -47,15 +47,15 @@ global.uang = {
 
 global.mess = {
 	key0: 'Apikey mu telah habis silahkan kunjungi\nhttps://my.hitori.pw',
-	owner: 'Spesial buat owner ygy😘',
-	admin: 'Fitur khusus atmin 😘',
-	botAdmin: 'Bot nya jadiin admin dulu bree',
+	owner: 'owner bot only',
+	admin: 'Fitur khusus atmin!',
+	botAdmin: 'Bot nya jadiin admin dulu',
 	group: 'Gunakan Di Group!',
 	private: 'Gunakan Di Privat Chat!',
 	prem: 'Khusus Premium 👑',
 	wait: 'waitt ⏳',
 	error: 'Error!',
-	done: 'dah siap nih✅'
+	done: 'Doneee ✅'
 }
 
 global.APIs = {
